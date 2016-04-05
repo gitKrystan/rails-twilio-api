@@ -3,7 +3,6 @@ class CreateMessages < ActiveRecord::Migration
     create_table :messages do |t|
       t.text :body
       t.string :to
-      t.string :from
 
       t.timestamps null: false
     end
