@@ -13,7 +13,7 @@ class Message < ActiveRecord::Base
         payload: {
           Body: body,
           To: to,
-          From: '2023354524'
+          From: ENV['TWILIO_FROM_NUMBER']
         }
       ).execute
     rescue RestClient::BadRequest => error
