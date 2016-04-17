@@ -3,13 +3,13 @@
 ##### By Krystan Menne and Mike Mahoney
 
 This sample Rails app lets users send text messages to their friends using the Twilio API (with RestClient). Text recipients can reply to these messages. The app listens for a webhook from Twilio and responds with a friendly automated message when the recipient replies.
+
 Testing with RSpec, VCR (to record HTTP requests and streamline tests), Capybara, and FactoryGirl.
 
 ## Prerequisites
 * Ruby 2.2.2 or greater
 * Rails 4.2.6 or greater
 * PostgreSQL
-* PhantomJS
 
 ## Installation
 1. `$ git clone` this repository
